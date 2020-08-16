@@ -1,0 +1,51 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background-color: white;
+    float: left;
+    border-radius: 10px;
+    width: 20%;
+    margin: 20px 15px;
+    padding: 15px;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.container h4 {
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.container p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 28px;
+    margin: 15px 10px;
+}
+
+.container a {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container a:hover {
+    background-color: blue;
+}
